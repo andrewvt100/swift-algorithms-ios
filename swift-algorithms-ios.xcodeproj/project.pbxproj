@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		498FF87B1DCCF6450003EA8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FF87A1DCCF6450003EA8E /* AppDelegate.swift */; };
-		498FF87D1DCCF6450003EA8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FF87C1DCCF6450003EA8E /* ViewController.swift */; };
-		498FF8801DCCF6450003EA8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498FF87E1DCCF6450003EA8E /* Main.storyboard */; };
 		498FF8821DCCF6450003EA8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498FF8811DCCF6450003EA8E /* Assets.xcassets */; };
-		498FF8851DCCF6450003EA8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498FF8831DCCF6450003EA8E /* LaunchScreen.storyboard */; };
+		498FF88E1DCCF74C0003EA8E /* binarysearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FF88C1DCCF74C0003EA8E /* binarysearch.swift */; };
+		498FF88F1DCCF74C0003EA8E /* quicksort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FF88D1DCCF74C0003EA8E /* quicksort.swift */; };
+		498FF8931DCCF7E50003EA8E /* AlgorithmSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498FF8911DCCF7E50003EA8E /* AlgorithmSelectionViewController.swift */; };
+		498FF8941DCCF7E50003EA8E /* AlgorithmSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 498FF8921DCCF7E50003EA8E /* AlgorithmSelectionViewController.xib */; };
+		498FF8971DCCF9080003EA8E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 498FF8961DCCF9080003EA8E /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		498FF8771DCCF6450003EA8E /* swift-algorithms-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-algorithms-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		498FF87A1DCCF6450003EA8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		498FF87C1DCCF6450003EA8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		498FF87F1DCCF6450003EA8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		498FF8811DCCF6450003EA8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		498FF8841DCCF6450003EA8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		498FF8861DCCF6450003EA8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		498FF88C1DCCF74C0003EA8E /* binarysearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = binarysearch.swift; sourceTree = "<group>"; };
+		498FF88D1DCCF74C0003EA8E /* quicksort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = quicksort.swift; sourceTree = "<group>"; };
+		498FF8911DCCF7E50003EA8E /* AlgorithmSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgorithmSelectionViewController.swift; sourceTree = "<group>"; };
+		498FF8921DCCF7E50003EA8E /* AlgorithmSelectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlgorithmSelectionViewController.xib; sourceTree = "<group>"; };
+		498FF8961DCCF9080003EA8E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,32 @@
 		498FF8791DCCF6450003EA8E /* swift-algorithms-ios */ = {
 			isa = PBXGroup;
 			children = (
-				498FF87A1DCCF6450003EA8E /* AppDelegate.swift */,
-				498FF87C1DCCF6450003EA8E /* ViewController.swift */,
-				498FF87E1DCCF6450003EA8E /* Main.storyboard */,
+				498FF8951DCCF85B0003EA8E /* Application Files */,
+				498FF8901DCCF75B0003EA8E /* Algorithms */,
 				498FF8811DCCF6450003EA8E /* Assets.xcassets */,
-				498FF8831DCCF6450003EA8E /* LaunchScreen.storyboard */,
+				498FF8961DCCF9080003EA8E /* Default-568h@2x.png */,
 				498FF8861DCCF6450003EA8E /* Info.plist */,
 			);
 			path = "swift-algorithms-ios";
+			sourceTree = "<group>";
+		};
+		498FF8901DCCF75B0003EA8E /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				498FF88C1DCCF74C0003EA8E /* binarysearch.swift */,
+				498FF88D1DCCF74C0003EA8E /* quicksort.swift */,
+			);
+			name = Algorithms;
+			sourceTree = "<group>";
+		};
+		498FF8951DCCF85B0003EA8E /* Application Files */ = {
+			isa = PBXGroup;
+			children = (
+				498FF87A1DCCF6450003EA8E /* AppDelegate.swift */,
+				498FF8911DCCF7E50003EA8E /* AlgorithmSelectionViewController.swift */,
+				498FF8921DCCF7E50003EA8E /* AlgorithmSelectionViewController.xib */,
+			);
+			name = "Application Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +145,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				498FF8851DCCF6450003EA8E /* LaunchScreen.storyboard in Resources */,
+				498FF8941DCCF7E50003EA8E /* AlgorithmSelectionViewController.xib in Resources */,
 				498FF8821DCCF6450003EA8E /* Assets.xcassets in Resources */,
-				498FF8801DCCF6450003EA8E /* Main.storyboard in Resources */,
+				498FF8971DCCF9080003EA8E /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,31 +158,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				498FF87D1DCCF6450003EA8E /* ViewController.swift in Sources */,
+				498FF88E1DCCF74C0003EA8E /* binarysearch.swift in Sources */,
+				498FF8931DCCF7E50003EA8E /* AlgorithmSelectionViewController.swift in Sources */,
 				498FF87B1DCCF6450003EA8E /* AppDelegate.swift in Sources */,
+				498FF88F1DCCF74C0003EA8E /* quicksort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		498FF87E1DCCF6450003EA8E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				498FF87F1DCCF6450003EA8E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		498FF8831DCCF6450003EA8E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				498FF8841DCCF6450003EA8E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		498FF8871DCCF6450003EA8E /* Debug */ = {
